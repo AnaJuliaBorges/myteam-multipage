@@ -8,9 +8,9 @@ export const Header = () => {
 
   return (
     <header className='flex py-16 px-6 lg:px-0 w-full justify-center'>
-      <div className='flex justify-between w-full max-w-[1151px] items-center'>
+      <div className='flex justify-between w-full max-w-[1110px] items-center'>
         <div className='flex gap-20 items-center'>
-          <Image src={logo}/>
+          <Image src={logo} alt="logo" />
           <div className='flex gap-10'>
             <CustomLink href='/'>home</CustomLink>
             <CustomLink href='/about'>about</CustomLink>
