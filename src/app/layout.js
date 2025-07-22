@@ -1,6 +1,6 @@
 import { Livvic } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/header";
+import { Header } from "@/Components/header";
 
 const livvic = Livvic({
   weight: ['400', '500', '600', '700'],
