@@ -1,8 +1,11 @@
+import { FirstSection } from "@/Components/home/firstSection";
+import { SecondSection } from "@/Components/home/secondSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1> home</h1>
+    <main className="flex flex-col w-full items-center">
+        <FirstSection />
+        <SecondSection />
     </main>      
   );
 }
