@@ -1,6 +1,7 @@
 import { Livvic } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/Components/header";
+import { Footer } from "@/Components/footer";
 
 const livvic = Livvic({
   weight: ['400', '500', '600', '700'],
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
