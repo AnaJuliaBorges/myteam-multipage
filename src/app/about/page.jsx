@@ -1,8 +1,11 @@
+import { AboutCompany } from "@/Components/about/aboutCompany";
+import { Directors } from "@/Components/about/directors";
 
-export default function About() {
+export default function Home() {
   return (
-    <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1> about</h1>
+    <main className="flex flex-col w-full items-center overflow-hidden ">
+      <AboutCompany />
+      <Directors />
     </main>      
   );
 }
