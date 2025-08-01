@@ -1,3 +1,4 @@
+import { FooterSecondary } from "@/Components/footerSecondary";
 import { FirstSection } from "@/Components/home/firstSection";
 import { SecondSection } from "@/Components/home/secondSection";
 import { ThirdSection } from "@/Components/home/thirdSection";
@@ -8,6 +9,7 @@ export default function Home() {
         <FirstSection />
         <SecondSection />
         <ThirdSection />
+        <FooterSecondary />
     </main>      
   );
 }
