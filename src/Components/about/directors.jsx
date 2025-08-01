@@ -77,7 +77,7 @@ export const Directors = () => {
         <h2 className="text-h1-S font-bold">
           Meet the directors
         </h2>
-        <div className="grid grid-cols-3 gap-x-7 gap-y-15 h-full justify-between ">
+        <div className="grid grid-cols-3 gap-x-7 gap-y-15">
           {listDirectors.map((item, index) => (
             <CardDirector 
               key={index}
