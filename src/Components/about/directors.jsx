@@ -73,7 +73,7 @@ export const Directors = () => {
       <Image className="absolute bottom-0 right-0" width={147} height={100} src={pattern2} aria-hidden alt='pattern'/>
 
 
-      <Container style='flex flex-row justify-between lg:flex-col items-center text-center gap-6 items-center'>
+      <Container style='flex flex-row justify-between lg:flex-col items-center text-center gap-16 items-center'>
         <h2 className="text-h1-S font-bold">
           Meet the directors
         </h2>
