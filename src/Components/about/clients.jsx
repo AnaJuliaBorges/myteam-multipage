@@ -19,11 +19,11 @@ export const Clients = () => {
           Some of our clients
         </h2>
         <div className="flex gap-15 w-full">
-          <Image className="h-fit" width={130} src={logoVerge} />
-          <Image className="h-fit" width={140} src={logoJakarta} />
-          <Image className="h-fit" width={140} src={logoGuardian} />
-          <Image className="h-fit" width={130} src={logoTechRadar} />
-          <Image className="h-fit" width={80} src={logoGadgets} />
+          <Image className="h-fit" width={130} src={logoVerge} alt='logo-the-verge' />
+          <Image className="h-fit" width={140} src={logoJakarta} alt='logo-jakarta-post' />
+          <Image className="h-fit" width={140} src={logoGuardian} alt='logo-the-guardian' />
+          <Image className="h-fit" width={130} src={logoTechRadar} alt='logo-tech-radar' />
+          <Image className="h-fit" width={80} src={logoGadgets} alt='logo-gadgets-now' />
         </div>
       </Container>
     </section>
