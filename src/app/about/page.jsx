@@ -1,6 +1,7 @@
 import { AboutCompany } from "@/Components/about/aboutCompany";
 import { Clients } from "@/Components/about/clients";
 import { Directors } from "@/Components/about/directors";
+import { FooterSecondary } from "@/Components/footerSecondary";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <AboutCompany />
       <Directors />
       <Clients />
+      <FooterSecondary />
     </main>      
   );
 }
