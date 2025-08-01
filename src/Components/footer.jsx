@@ -3,7 +3,7 @@ import React from 'react'
 import logo from '@/assets/logo.svg'
 import facebook from '@/assets/icon-facebook.svg'
 import pinterest from '@/assets/icon-pinterest.svg'
-import twitter from '@/assets/icon-twitter.svg'
+import x from '@/assets/icon-twitter.svg'
 
 import Image from 'next/image'
 import { CustomLink } from './link'
@@ -30,9 +30,9 @@ export const Footer = () => {
         </div>
         <div className='flex flex-col justify-between items-end'>
           <div className='flex gap-4'>
-            <Image className='cursor-pointer' src={facebook} alt="logo" />
-            <Image className='cursor-pointer' src={pinterest} alt="logo" />
-            <Image className='cursor-pointer' src={twitter} alt="logo" />
+            <a target="_blank" className='cursor-pointer'><Image src={facebook} alt="link-facebook" /></a>
+            <a target="_blank" className='cursor-pointer'><Image src={pinterest} alt="link-pinterest" /></a>
+            <a target="_blank" className='cursor-pointer'><Image src={x} alt="link-X" /></a>
           </div>
           <p className='text-body2 opacity-60'>Copyright 2020. All Rights Reserved</p>
         </div>
