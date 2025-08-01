@@ -13,6 +13,7 @@ export const Button = ({children, variant, disabled, onClick}) => {
   const getVariantClass = () => {
     const variants = {
       primary: 'bg-transparent hover:bg-white border-2 border-white hover:text-secondary-500',
+      primaryBlue: 'bg-transparent hover:bg-secondary-400 border-2 border-secondary-400 text-secondary-400 hover:text-white',
       secondary: 'bg-white text-secondary-500 hover:bg-secondary-100',
     }
 
