@@ -7,7 +7,7 @@ import iconChart from '@/assets/icon-chart.svg'
 import { Divider } from "../divider"
 import { FeaturedItem } from "./featuredItem"
 
-export const SecondSection = () => {
+export const Features = () => {
 
   const featuresList = [
     {

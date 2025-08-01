@@ -4,7 +4,7 @@ import pattern1 from '@/assets/bg-pattern-home-1.svg'
 import pattern2 from '@/assets/bg-pattern-home-2.svg'
 import { Divider } from "../divider"
 
-export const FirstSection = () => {
+export const Introduction = () => {
   return (
     <section className="w-full flex justify-center relative">
       <Image className="absolute top-32 left-[-128px]" width={200} height={200} src={pattern1} aria-hidden alt='pattern'/>

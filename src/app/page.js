@@ -1,14 +1,14 @@
 import { FooterSecondary } from "@/Components/footerSecondary";
-import { FirstSection } from "@/Components/home/firstSection";
-import { SecondSection } from "@/Components/home/secondSection";
-import { ThirdSection } from "@/Components/home/thirdSection";
+import { Features } from "@/Components/home/features";
+import { Introduction } from "@/Components/home/introduction";
+import { TestimonialsSection } from "@/Components/home/testimonialsSection";
 
 export default function Home() {
   return (
     <main className="flex flex-col w-full items-center overflow-hidden ">
-        <FirstSection />
-        <SecondSection />
-        <ThirdSection />
+        <Introduction />
+        <Features />
+        <TestimonialsSection />
         <FooterSecondary />
     </main>      
   );
