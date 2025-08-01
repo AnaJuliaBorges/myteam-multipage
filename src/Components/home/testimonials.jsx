@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import iconQuotes from '@/assets/icon-quotes.svg'
+import { RoundedImage } from '../roundedImage'
 
 export const Testimonials = ({image, name, role, description}) => {
   return (
@@ -11,7 +12,7 @@ export const Testimonials = ({image, name, role, description}) => {
             <p className='font-bold text-body1 text-secondary-100'>{name}</p>
             <p className='text-xs font-normal italic'>{role}</p>
         </div>
-        <Image className="rounded-full border-2 border-[#C4FFFE]" width={62} height={62} src={image} alt={`imagem-${name}`}/>
+        <RoundedImage name={name} image={image} size={62}/>
       </div>
     </div>
   )
