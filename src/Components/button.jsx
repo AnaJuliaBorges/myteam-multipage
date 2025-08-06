@@ -21,6 +21,6 @@ export const Button = ({children, variant, disabled, onClick}) => {
   }
 
   return (
-    <button className={`px-8 rounded-3xl h-12 cursor-pointer disabled:opacity-25 disabled:cursor-none ${getVariantClass()}`} disabled={disabled} onClick={onClick || handleClick}>{children}</button>
+    <button className={`px-8 rounded-3xl h-12 cursor-pointer disabled:opacity-25 disabled:cursor-none font-[600] ${getVariantClass()}`} disabled={disabled} onClick={onClick || handleClick}>{children}</button>
   )
 }
